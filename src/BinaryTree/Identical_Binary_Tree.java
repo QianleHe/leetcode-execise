@@ -22,5 +22,6 @@ public class Identical_Binary_Tree {
         boolean right = isIdentical(a.right, b.right);
 
         return left && right;
+
     }
 }

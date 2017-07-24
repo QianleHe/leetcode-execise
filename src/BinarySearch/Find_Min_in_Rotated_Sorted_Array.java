@@ -1,5 +1,7 @@
 package BinarySearch;
 
+import java.util.Stack;
+
 /**
  * Created by qianle on 7/16/17.
  */
@@ -7,7 +9,7 @@ public class Find_Min_in_Rotated_Sorted_Array {
 
     public static void main(String[] args) {
         Find_Min_in_Rotated_Sorted_Array f = new Find_Min_in_Rotated_Sorted_Array();
-        int[] arr = new int[]{4,5,1,2,3,4};
+        int[] arr = new int[]{1,2,3,4,8,9};
         System.out.println(f.findMin(arr));
     }
 
